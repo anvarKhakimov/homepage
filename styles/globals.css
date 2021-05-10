@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.global {
+    @apply text-xl antialiased sm:subpixel-antialiased md:antialiased bg-white dark:bg-gray-800 dark:text-white;
+}

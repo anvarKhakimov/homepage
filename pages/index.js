@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head></Head>
-      <body className="container mx-auto mx-40 font-sans font-light text-xl antialiased sm:subpixel-antialiased md:antialiased">
+      <body className="container mx-auto mx-40 font-sans font-light global">
         <div class="grid grid-cols-6 gap-4">
           <div class="col-start-2 col-span-4 pt-14 ">
             <Image
