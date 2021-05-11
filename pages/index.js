@@ -30,8 +30,8 @@ export default function Home() {
             <div className="text-lg mb-10">
               Контакты:
               <ul className="list-disc list-inside">
-                <li>почта</li>
-                <li>телеграм</li>
+                <li>pochta@email.com</li>
+                <li>@telegram</li>
               </ul>
             </div>
           </div>
