@@ -26,7 +26,7 @@ export default function Home() {
             className="rounded-full"
           />
         </div>
-        <div className="col-start-2 col-span-4">
+        <div className="col-start-2 col-span-5 md:col-start-2 md:col-span-4">
           <div className="text-3xl md:text-5xl my-10">
             <h1 className="font-semibold">Анвар Хакимов, <span className="font-extralight">руководитель проектов</span></h1>
           </div>
