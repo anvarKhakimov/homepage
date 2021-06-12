@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { YandexMetrika } from '../utils/YandexMetrika'
+import { GoogleAnalitics } from '../utils/GoogleTag'
 
 const environment = process.env.NODE_ENV
 const yandexVerification = "8664febce672d14c"
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
                 <> 
                 <meta name="yandex-verification" content={yandexVerification} />
                 <YandexMetrika /> 
+                <GoogleAnalitics />
                 </>
                 : null}
             </Head>
